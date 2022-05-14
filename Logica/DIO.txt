@@ -1,0 +1,42 @@
+Boot Camp DIO - Fim mês 09/05
+
+-x-
+
+pega ovelha
+vai
+deixa ovelha
+volta
+pega repolho
+vai
+deixa repolho
+pega ovelha
+volta
+deixa ovelha
+pega lobo
+vai
+deixa lobo
+volta
+pega ovelha
+vai 
+deixa ovelha
+
+-x- 
+
+Pinguin Azul = PA
+Pinguin Verde = PV
+Pinguin Vermelho = PVO
+
+PA pai e filho vai
+PA pai fica
+PA filho volta
+PA e PV filho vai
+PA filho fica
+PV filho volta
+PV filho e pai vai
+PV pai fica
+PV filho volta
+PVO e PV filho vai
+PV filho fica
+PVO volta
+PVO pai e filho vai
+PVO pai e filho fica

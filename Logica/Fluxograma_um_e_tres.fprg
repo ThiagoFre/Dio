@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Pichau"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-27 03:24:44 "/>
+        <attribute name="created" value="UGljaGF1O0RFU0tUT1AtQkcwMkNUQTsyMDIyLTAzLTI3OyIwMjoyMToxNiAiOzI4MjE="/>
+        <attribute name="edited" value="UGljaGF1O0RFU0tUT1AtQkcwMkNUQTsyMDIyLTAzLTI3OyIwMzoyNDo0NCAiOzU7MjkzOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, nota3, nota4, soma, media" type="Real" array="False" size=""/>
+            <declare name="nomeESobrenome" type="String" array="False" size=""/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="nota4"/>
+            <assign variable="soma" expression="(nota1+nota2+nota3+nota4)"/>
+            <output expression="soma" newline="True"/>
+            <assign variable="media" expression="(soma)/4"/>
+            <output expression="media" newline="True"/>
+            <output expression="&quot;Qual &#233; seu nome?&quot;" newline="True"/>
+            <input variable="nomeESobrenome"/>
+            <output expression="&quot;Seu nome &#233;: &quot; &amp; nomeESobrenome" newline="True"/>
+            <if expression="media&gt;=7">
+                <then>
+                    <output expression="&quot;e parabens aprovado&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot; e voc&#234; &#233; burro!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
